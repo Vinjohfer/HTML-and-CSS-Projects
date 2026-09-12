@@ -5,11 +5,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Welcome to The Pet Shop homepage">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <!--NAVBAR-->
-        <nav>
-            <ul>
+        <nav class="nav-bar">
+            <ul id="nav-border">
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
             </ul>
@@ -26,45 +27,62 @@
         <!--HEADER-->
         <header>
             <div>
-                <h1>Welcome to The Pet Shop!</h1>
+                <h1 class="animate-text">Welcome to The Pet Shop!</h1>
             </div>
         </header>
-        <blockquote> "Until one has loved an animal, a part of one's soul remains unawakened." - Anatole France
-        </blockquote>
+        
         <!--PET IMAGES-->
         <section>
-            <div>
+            <div class="container">
                 <h2>Choose a Pet!</h2>
                 <div>
                     <!--CAT IMAGE-->
-                    <div id="cat">
+                    <div id="cat" class="column">
+                        <div class="image-container">
                         <h3>Cats & Kittens</h3>
                         <img src="images/Cat.png" alt="Picture of Kittens">
+                        <div class="overlay"></div>
+                    </div>
                     </div>
                     <!--DOG IMAGE-->
-                    <div id="dog">
+                    <div id="dog" class="column">
+                        <div class="image-container">
                         <h3>Dogs & Puppies</h3>
                         <img src="images/Dog.png" alt="Picture of Puppies">
+                        <div class="overlay"></div>
+                    </div>
                     </div>
                     <!--RABBIT IMAGE-->
-                    <div id="rabbit">
+                    <div id="rabbit" class="column">
+                        <div class="image-container">
                         <h3>Rabbits</h3>
                         <img src="images/Rabbit.png" alt="Picture of Rabbit">
+                        <div class="overlay"></div>
+                        </div>
                     </div>
                      <!--GUINEA PIGS IMAGE>-->
-                    <div id="guineapigs">
+                    <div id="guineapigs" class="column">
+                        <div class="image-container">
                         <h3>Guinea Pigs</h3>
                         <img src="images/guineapigs.png" alt="Picture of Guinea Pigs">
+                        <div class="overlay"></div>
+                        </div>
                     </div>
                      <!--FISH IMAGE>-->
-                    <div id="fish">
+                    <div id="fish" class="column">
+                        <div class="image-container">
                         <h3>Fish</h3>
                         <img src="images/Fish.png" alt="Picture of Fish">
+                        <div class="overlay"></div>
+                        </div>
                     </div>
                      <!--REPTILE IMAGE>-->
-                    <div id="reptile">
+                    <div id="reptile" class="column">
+                        <div class="image-container">
                         <h3>Bearded Dragon</h3>
                         <img src="images/reptile.png" alt="Picture of Bearded Dragon">
+                        <div class="overlay"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -72,7 +90,7 @@
         <!--VIDEOS-->
         <section>
             <!--DOG VIDEO-->
-            <div id="video">
+            <div id="video" class="container">
                 <h3>Videos</h3>
                 <iframe width="1280" height="720" src="https://www.youtube.com/embed/ng58pNPDDW4?si=IYU1A-W0rV-dncBT"></iframe>
             </div>
